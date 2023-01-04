@@ -18,3 +18,11 @@ print (d)
 
 i = vowels.intersection(set(word))
 print(i)
+
+
+vowels = set('aeiou')
+word = input ("ingrese una palabra para comparar")
+found = vowels.intersection(set(word))
+for vowel in found:
+    print(vowel)
+    
